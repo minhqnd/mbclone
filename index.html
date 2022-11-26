@@ -4,9 +4,9 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, shrink-to-fit=no, viewport-fit=cover">
+<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
     <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>MB BANK</title>
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link href="https://fonts.googleapis.com/css?family=Avenir+Next&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
@@ -23,14 +23,13 @@
             <div class="v34_57"></div><span class="v34_58">Chat với
                 eMBee</span>
         </div>
-        <div class="v17_45"><span class="v17_27">QUÊN MẬT KHẨU?</span><span class="v17_44">ĐĂNG NHẬP TÀI KHOẢN
-                KHÁC</span></div>
+        <div class="v17_45"><span class="v17_27"><u>QUÊN MẬT KHẨU?</u></span><span class="v17_44"><u>ĐĂNG NHẬP TÀI KHOẢN
+                    KHÁC</u></span></div>
         <div class="login">
             <div class="loginBtn"></div><span class="loginText">Đăng nhập</span>
         </div>
-        <div class="v16_21"><span class="v14_17">Mật khẩu</span>
-            <div class="name"></div>
-            <div class="v16_20"></div>
+        <div class="v16_21"><input class="passInput" type="password" placeholder="Mật khẩu"></input>
+            <div class="fingerprint"></div>
         </div>
         <div class="v13_15"><span class="v11_13">Xin chào,</span><span class="v13_14">NGUYEN DUC QUANG
                 MINH</span></div>
@@ -55,6 +54,10 @@
 <style>
     * {
         box-sizing: border-box;
+    }
+
+    ::placeholder {
+        color: #ffff;
     }
 
     body {
@@ -88,8 +91,13 @@
         opacity: 1;
         position: absolute;
         top: 581px;
-        left: 2px;
+        /* left: 2px; */
         overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
     }
 
     .v34_48 {
@@ -208,6 +216,7 @@
         background-position: center center;
         background-size: cover;
         opacity: 1;
+        font-weight: 600;
         position: absolute;
         top: 503px;
         left: 1px;
@@ -232,7 +241,7 @@
         color: rgba(255, 255, 255, 1);
         position: absolute;
         top: 0px;
-        left: 172px;
+        right: 0;
         font-family: Avenir Next;
         font-weight: Demi Bold;
         font-size: 13px;
@@ -250,7 +259,7 @@
         opacity: 1;
         position: absolute;
         top: 420px;
-        left: 1px;
+        /* left: 1px; */
         overflow: hidden;
     }
 
@@ -276,7 +285,7 @@
         top: 13px;
         /* left: 146px; */
         font-family: Avenir Next;
-        font-weight: Demi Bold;
+        font-weight: 600;
         font-size: 16px;
         opacity: 1;
         text-align: center;
@@ -292,17 +301,21 @@
         background-size: cover;
         opacity: 1;
         position: absolute;
+        border-bottom: solid 1px #ffff;
         top: 339px;
         left: 1px;
         overflow: hidden;
     }
 
-    .v14_17 {
-        width: 78px;
-        color: rgba(255, 255, 255, 1);
+    .passInput {
+        background-color: transparent;
+        color: white;
+        border: none;
+        outline: none;
+        width: 80%;
         position: absolute;
         top: 0px;
-        left: 17px;
+        left: 20px;
         font-family: Avenir Next;
         font-weight: Medium;
         font-size: 18px;
@@ -310,11 +323,7 @@
         text-align: left;
     }
 
-    .name {
-        color: #fff;
-    }
-
-    .v16_20 {
+    .fingerprint {
         width: 29px;
         height: 32px;
         background: url("./img/fingerprint.png");
@@ -324,11 +333,16 @@
         opacity: 1;
         position: absolute;
         top: 0px;
-        left: 336px;
+        right: 20px;
         overflow: hidden;
     }
 
     .v13_15 {
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
         width: 333px;
         height: 110px;
         background: url("../images/v13_15.png");
@@ -338,7 +352,7 @@
         opacity: 1;
         position: absolute;
         top: 199px;
-        left: 23px;
+        /* left: 23px; */
         overflow: hidden;
     }
 
@@ -369,6 +383,11 @@
     }
 
     .v9_6 {
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
         width: 379px;
         height: 40px;
         background: url("../images/v9_6.png");
@@ -377,8 +396,8 @@
         background-size: cover;
         opacity: 1;
         position: relative;
-        top: 0px;
-        left: 0px;
+        /* top: 0px; */
+        /* left: 0px; */
         overflow: hidden;
     }
 
@@ -492,6 +511,11 @@
     }
 
     .v11_12 {
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
         width: 170px;
         height: 172px;
         background: url("../images/v11_12.png");
@@ -501,7 +525,7 @@
         opacity: 1;
         position: absolute;
         top: 27px;
-        left: 105px;
+        /* left: 105px; */
         overflow: hidden;
     }
 
