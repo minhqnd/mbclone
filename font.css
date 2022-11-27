@@ -1,0 +1,55 @@
+    @font-face {
+        font-family: Avenir Next;
+        font-style: normal;
+        font-weight: 900;
+        src: url('./assets/font/AvenirNext-Black.otf');
+    }
+
+    @font-face {
+        font-family: Avenir Next;
+        font-style: normal;
+        font-weight: 800;
+        src: url('./assets/font/AvenirNext-Extrabold.otf');
+    }
+
+    @font-face {
+        font-family: Avenir Next;
+        font-style: normal;
+        font-weight: Bold;
+        src: url('./assets/font/AvenirNext-Bold.otf');
+    }
+
+    @font-face {
+        font-family: Avenir Next;
+        font-style: normal;
+        font-weight: 600;
+        src: url('./assets/font/AvenirNext-Semibold.otf');
+    }
+
+    @font-face {
+        font-family: Avenir Next;
+        font-style: normal;
+        font-weight: 500;
+        src: url('./assets/font/AvenirNext-Regular.otf');
+    }
+
+    @font-face {
+        font-family: Avenir Next;
+        font-style: normal;
+        font-weight: 400;
+        src: url('./assets/font/AvenirNext-Light.otf');
+    }
+
+    @font-face {
+        font-family: Avenir Next;
+        font-style: normal;
+        font-weight: 300;
+        src: url('./assets/font/AvenirNext-Thin.otf');
+    }
+
+    @font-face {
+        font-family: Avenir Next;
+        font-style: normal;
+        font-weight: 300;
+        src: url('./assets/font/AvenirNext-Extrathin.otf');
+    }
