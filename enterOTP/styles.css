@@ -43,7 +43,9 @@ body {
 	width: 232px;
 	height: 23px;
 	position: absolute;
-	left: 91px;
+	left: 0;
+	right: 0;
+	margin: auto;
 	top: 15px;
 	font-family: AvenirNext;
 	text-align: center;
@@ -52,12 +54,14 @@ body {
 	font-weight: 600;
 }
 
-.e769_33 {
+.tiepTuc {
 	background-color: rgba(198.00000339746475, 206.0000029206276, 231.00000143051147, 1);
 	width: 378px;
 	height: 49px;
 	position: absolute;
-	left: 18px;
+	left: 0;
+	right: 0;
+	margin: auto;
 	top: 669px;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
@@ -78,12 +82,15 @@ body {
 	letter-spacing: 0;
 }
 
-.e769_48 {
+.enterOTP {
 	background-color: rgba(22.000000588595867, 29.000000171363354, 201.00000321865082, 1);
+	color: #fff;
 	width: 378px;
 	height: 47px;
 	position: absolute;
-	left: 18px;
+	left: 0;
+	right: 0;
+	margin: auto;
 	top: 257px;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
@@ -92,7 +99,6 @@ body {
 }
 
 .e769_49 {
-	color: rgba(255, 255, 255, 1);
 	width: 81px;
 	height: 23px;
 	position: absolute;
@@ -142,7 +148,7 @@ body {
 	border-bottom-right-radius: 5px;
 }
 
-.e769_54 {
+.OTP2 {
 	color: rgba(22.000000588595867, 29.000000171363354, 201.00000321865082, 1);
 	width: auto;
 	height: 43px;
@@ -171,7 +177,7 @@ body {
 	border-bottom-right-radius: 5px;
 }
 
-.e769_52 {
+.OTP1 {
 	font-weight: 600;
 	color: rgba(22.000000588595867, 29.000000171363354, 201.00000321865082, 1);
 	width: auto;
@@ -185,4 +191,19 @@ body {
 	text-align: center;
 	font-size: 36px;
 	letter-spacing: 15;
+}
+
+span {
+	text-decoration: none;
+}
+
+.clickable {
+	background-color: #161DC9;
+}
+
+.clicked {
+	background-color: #fff;
+	color: #7DC4F6;
+	/* stroke: #7DC4F6; */
+	box-shadow: 0 0 0 1px #7DC4F6;
 }
