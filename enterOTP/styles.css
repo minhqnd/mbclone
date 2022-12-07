@@ -83,6 +83,7 @@ body {
 }
 
 .enterOTP {
+	z-index: 1;
 	background-color: rgba(22.000000588595867, 29.000000171363354, 201.00000321865082, 1);
 	color: #fff;
 	width: 378px;

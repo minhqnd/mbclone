@@ -17,26 +17,30 @@
 <body>
   <div class=e743_4>
     <div class=e748_26>
-      <div class=e748_27><span class="e748_28">Lấy mã OTP</span></div>
+      <div class='getOTP' onclick="getOTP()"><span class="e748_28">Lấy mã OTP</span></div>
     </div>
     <div class=e743_5>
       <div class=e743_6>
         <div class="e745_13"></div><span class="e743_8">Lấy mã OTP</span>
       </div>
     </div>
-    <div class=e747_14><span class="e747_15">Vui lòng nhập <span class="boldOTP">PIN Digital OTP</span> của bạn
-        để tạo mã xác thực cho dao dịch này
-        (Mã giao dịch GD2942403)</span>
-      <div class=e747_16>
-        <div class="e748_20"></div>
-        <div class="e748_20"></div>
-        <div class="e748_20"></div>
-        <div class="e748_20"></div>
-        <div class="e748_20"></div>
-        <div class="e748_25"></div>
+    <div class=inputZone onclick="startInput()"><span class="e747_15">Vui lòng nhập <span class="boldOTP">PIN Digital OTP</span> của bạn
+        để tạo mã xác thực cho giao dịch này
+        (Mã giao dịch GD<span class="idGD"></span>)</span>
+        <div class=e747_16>
+        <div class="dot hide"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
       </div>
     </div>
   </div>
-</body>
+  <input id='input' style='position: fixed;bottom: 0;right: 0;pointer-events: none;opacity: 0;transform: scale(0);' type="number" autofocus></input>
 
+</body>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+<script src="./index.js"></script>
 </html>

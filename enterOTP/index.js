@@ -15,17 +15,14 @@ function splitOTP() {
 
 $('.OTP1').text(splitOTP())
 
-function clickOTP() {
+function enterOTP() {
     $('.OTP2').text(splitOTP())
     $('.enterOTP').addClass('clicked')
     $('.tiepTuc').addClass('clickable')
 }
 
+function tiepTuc() {
 
-$(document).on('click', ".enterOTP", function () {
-    console.log('cc');
-});
-
-console.log('cc');
+}
 
 //TODO #2 onclick event

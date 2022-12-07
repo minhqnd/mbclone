@@ -19,7 +19,7 @@ body {
 	top: 439px;
 }
 
-.e748_27 {
+.getOTP {
 	background-color: rgba(198.00000339746475, 206.0000029206276, 231.00000143051147, 1);
 	width: 378px;
 	height: 49px;
@@ -95,7 +95,7 @@ body {
 	letter-spacing: 1;
 }
 
-.e747_14 {
+.inputZone {
 	width: 360px;
 	height: 143px;
 	position: absolute;
@@ -135,14 +135,9 @@ body {
 	top: 101px;
 }
 
-.e748_20 {
-	border-radius: 500px;
-	background-color: rgba(22.000000588595867, 29.000000171363354, 201.00000321865082, 1);
-	width: 25px;
-	height: 25px;
-	/* position: absolute; */
-	left: 0px;
-	top: 0px;
+.doted {
+	background-color: rgba(22.000000588595867, 29.000000171363354, 201.00000321865082, 1) !important;
+	box-shadow: 0 0 0 0px #D9D9D9 !important;
 }
 
 .e748_21 {
@@ -185,17 +180,21 @@ body {
 	top: 0px;
 }
 
-.e748_25 {
+.dot {
 	border-radius: 500px;
 	background-color: rgba(255, 255, 255, 1);
 	width: 25px;
 	height: 25px;
-	/* position: absolute; */
 	box-shadow: 0 0 0 1px #D9D9D9;
 	left: 220px;
 	top: 0px;
 }
 
-.748_25 {
-	border: 1px solid rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+
+.hide {
+	display: none;
+}
+
+.clickable {
+	background-color: #161DC9;
 }
