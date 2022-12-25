@@ -13,4 +13,3 @@ $(".showMoreBtn").click(function () {
         showMore = false
     }
 });
-

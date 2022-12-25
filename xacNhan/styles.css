@@ -1,0 +1,557 @@
+body {
+	margin: 0;
+	/* height: 90px; */
+}
+
+.e935_3 {
+	/* background-color: rgba(255, 255, 255, 1); */
+	width: 100%;
+	height: 637px;
+	overflow: auto;
+	/* position: absolute; */
+	/* padding-bottom: 95px; */
+	/* z-index: 2; */
+}
+
+.e1208_7 {
+	width: 100%;
+	height: 336px;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	background-image: url(images/frame_6.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: -7px;
+	z-index: -9;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 22px;
+	padding: 15px 18px 15px;
+	box-sizing: border-box;
+	width: 100%;
+	height: 55px;
+	/* position: fixed; */
+	/* top: 0; */
+	/* z-index: 9; */
+	/* background: inherit; */
+	background-image: url(images/image_6.png);
+}
+
+.e1212_21 {
+	width: 17px;
+	height: 16px;
+	/* position: absolute; */
+	left: 16px;
+	top: 19.5px;
+	background-image: url(images/image_2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.e1210_15 {
+	color: rgba(255, 255, 255, 1);
+	width: auto;
+	height: 23px;
+	/* position: absolute; */
+	left: 75px;
+	top: 16px;
+	font-family: AvenirNext;
+	font-weight: 600;
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: 0;
+}
+
+.e1210_12 {
+	width: 22px;
+	height: 22px;
+	/* position: absolute; */
+	left: 376px;
+	top: 16.5px;
+	background-image: url(images/image_1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.pushheader {
+	height: 55px;
+}
+
+
+.e1212_22 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: fit-content;
+	/* position: absolute; */
+	gap: 17px;
+	padding-bottom: 100px;
+	/* z-index: 3; */
+}
+
+.e1212_25 {
+	width: 100%;
+	height: auto;
+	/* position: absolute; */
+	/* left: 18.5px; */
+	margin-top: 16px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	/* top: 16px; */
+}
+
+.e1212_29 {
+	color: rgba(255, 255, 255, 1);
+	width: auto;
+	height: auto;
+	/* position: absolute; */
+	font-family: AvenirNext;
+	font-weight: 400;
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: 0;
+	padding-top: 16px;
+}
+
+.e1212_30 {
+	color: rgba(255, 255, 255, 1);
+	width: 90%;
+	margin: auto;
+	height: auto;
+	/* position: absolute; */
+	font-family: AvenirNext;
+	font-weight: 700;
+	text-align: center;
+	font-size: 45px;
+	padding-top: 12px;
+	letter-spacing: 0;
+
+}
+
+.e1212_23 {
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.30000001192092896);
+	background-color: rgba(255, 255, 255, 1);
+	width: 378px;
+	height: auto;
+	/* position: absolute; */
+	left: 18px;
+	top: 142px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+.e1212_32 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 0px 8px 0px;
+	width: auto;
+	height: 105px;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+.e1212_36 {
+	color: rgba(0, 0, 0, 1);
+	width: auto;
+	height: 20px;
+	/* position: absolute; */
+	left: 8px;
+	top: 5.5px;
+	font-family: AvenirNext;
+	font-weight: 400;
+	text-align: left;
+	font-size: 16px;
+	letter-spacing: 1;
+}
+
+.e1212_37 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px 1px;
+	gap: 1px;
+
+	width: 362px;
+	height: 46px;
+
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 1;
+	align-self: stretch;
+	flex-grow: 0;
+}
+
+.e1217_51 {
+	width: 26px;
+	height: 26px;
+	/* position: absolute; */
+	left: 1px;
+	top: 10px;
+	background-image: url(images/src_assets_images_logo_bank_mb_1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 0px 0px 0px 24px;
+
+	width: auto;
+	height: auto;
+
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 1;
+	align-self: stretch;
+	flex-grow: 0;
+}
+
+.name {
+	color: rgba(0, 0, 0, 1);
+	width: auto;
+	height: 23px;
+	/* position: absolute; */
+	left: 24px;
+	top: 2px;
+	font-family: AvenirNext;
+	font-weight: 600;
+	text-align: left;
+	font-size: 16px;
+	letter-spacing: 1;
+}
+
+.desc {
+	color: rgba(0, 0, 0, 1);
+	width: auto;
+	height: 19px;
+	/* position: absolute; */
+	left: 24px;
+	top: 25px;
+	font-family: AvenirNext;
+	font-weight: 400;
+	text-align: left;
+	font-size: 15px;
+	letter-spacing: 1;
+}
+
+.e1215_43 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 0px 8px 11px;
+
+	width: auto;
+	height: 105px;
+
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}
+
+.e1215_44 {
+	color: rgba(0, 0, 0, 1);
+	width: auto;
+	height: 20px;
+	/* position: absolute; */
+	left: 8px;
+	top: 5.5px;
+	font-family: AvenirNext;
+	font-weight: 400;
+	text-align: left;
+	font-size: 16px;
+	letter-spacing: 1;
+}
+
+.e1215_45 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px 1px;
+	gap: 1px;
+
+	width: 360px;
+	height: 63px;
+
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}
+
+.e1215_46 {
+	width: 26px;
+	height: 29.1200008392334px;
+	/* position: absolute; */
+	left: 1px;
+	top: 16.939998626708984px;
+	background-image: url(images/src_assets_images_logo_bank_tpb_1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.e1215_47 {
+	width: 333px;
+	height: 63px;
+	position: absolute;
+	left: 28px;
+	top: 0px;
+}
+
+.e1215_48 {
+	color: rgba(0, 0, 0, 1);
+	width: 174px;
+	height: 23px;
+	position: absolute;
+	left: 24px;
+	top: 1px;
+	font-family: AvenirNext;
+	text-align: left;
+	font-size: 16px;
+	letter-spacing: 1;
+}
+
+.e1215_49 {
+	color: rgba(0, 0, 0, 1);
+	width: 89px;
+	height: 19px;
+	position: absolute;
+	left: 24px;
+	top: 24px;
+	font-family: AvenirNext;
+	text-align: left;
+	font-size: 14px;
+	letter-spacing: 1;
+}
+
+.e1215_50 {
+	color: rgba(0, 0, 0, 1);
+	width: 190px;
+	height: 19px;
+	position: absolute;
+	left: 24px;
+	top: 43px;
+	font-family: AvenirNext;
+	text-align: left;
+	font-size: 14px;
+	letter-spacing: 1;
+}
+
+.e1217_52 {
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.30000001192092896);
+	background-color: rgba(255, 255, 255, 1);
+	width: 378px;
+	height: auto;
+	/* position: absolute; */
+	left: 18px;
+	top: 369px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+.detail {
+	width: auto;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	left: 0px;
+	/* top: 10px; */
+	padding: 20px 8px 0px;
+}
+
+.detail:last-child {
+	padding-bottom: 20px;
+}
+
+.detail_left {
+	color: rgba(130.0000074505806, 130.0000074505806, 130.0000074505806, 1);
+	/* width: 103px;
+	height: 22px; */
+	/* position: absolute; */
+	width: 50%;
+	font-family: AvenirNext;
+	text-align: left;
+	font-size: 16px;
+	letter-spacing: 1;
+}
+
+.detail_right {
+	color: rgba(0, 0, 0, 1);
+	width: 50%;
+	font-family: AvenirNext;
+	text-align: right;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 1;
+}
+
+.e1218_56 {
+	width: 378px;
+	height: 58px;
+	position: absolute;
+	left: 0px;
+	top: 46px;
+}
+
+.e1218_57 {
+	color: rgba(130.0000074505806, 130.0000074505806, 130.0000074505806, 1);
+	width: 134px;
+	height: 22px;
+	position: absolute;
+	left: 8px;
+	top: 7px;
+	font-family: AvenirNext;
+	text-align: left;
+	font-size: 16px;
+	letter-spacing: 1;
+}
+
+.e1218_58 {
+	color: rgba(0, 0, 0, 1);
+	width: 157px;
+	height: 44px;
+	position: absolute;
+	left: 213px;
+	top: 7px;
+	font-family: AvenirNext;
+	text-align: right;
+	font-size: 16px;
+	letter-spacing: 1;
+}
+
+.e1218_59 {
+	width: 378px;
+	height: 58px;
+	position: absolute;
+	left: 0px;
+	top: 104px;
+}
+
+.e1218_60 {
+	color: rgba(130.0000074505806, 130.0000074505806, 130.0000074505806, 1);
+	width: 138px;
+	height: 22px;
+	position: absolute;
+	left: 8px;
+	top: 7px;
+	font-family: AvenirNext;
+	text-align: left;
+	font-size: 16px;
+	letter-spacing: 1;
+}
+
+.e1218_61 {
+	color: rgba(0, 0, 0, 1);
+	width: 169px;
+	height: 44px;
+	position: absolute;
+	left: 201px;
+	top: 7px;
+	font-family: AvenirNext;
+	text-align: right;
+	font-size: 16px;
+	letter-spacing: 1;
+}
+
+.e1218_62 {
+	width: 378px;
+	height: 80px;
+	position: absolute;
+	left: 0px;
+	top: 162px;
+}
+
+.e1218_63 {
+	color: rgba(130.0000074505806, 130.0000074505806, 130.0000074505806, 1);
+	width: 74px;
+	height: 22px;
+	position: absolute;
+	left: 8px;
+	top: 7px;
+	font-family: AvenirNext;
+	text-align: left;
+	font-size: 16px;
+	letter-spacing: 1;
+}
+
+.e1218_64 {
+	color: rgba(0, 0, 0, 1);
+	width: 176px;
+	height: 66px;
+	position: absolute;
+	left: 194px;
+	top: 7px;
+	font-family: AvenirNext;
+	text-align: right;
+	font-size: 16px;
+	letter-spacing: 1;
+}
+
+.e1201_2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(255, 255, 255, 1);
+	width: 100%;
+	height: 85px;
+	/* position: absolute; */
+	left: 0px;
+	position: fixed;
+	bottom: 0;
+	/* top: 714px; */
+}
+
+.e1201_3 {
+	background-color: rgba(22.000000588595867, 29.000000171363354, 201.00000321865082, 1);
+	width: 378px;
+	height: 49px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.e1201_3:active {
+	opacity: .1;
+}
+
+.e1201_4 {
+	color: rgba(255, 255, 255, 1);
+	width: auto;
+	font-family: AvenirNext;
+	font-weight: 400;
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: 0;
+}
