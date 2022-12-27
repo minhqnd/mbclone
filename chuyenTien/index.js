@@ -3,6 +3,9 @@ const defaultClientId = 'demo-dd58bc3f-7544-4d22-b8d6-ed77b03242baa'
 loadXMLDoc()
 init()
 
+
+//dung input checkbox di cho nhanh
+
 function loadXMLDoc() {
     var xmlhttp = new XMLHttpRequest();
 
@@ -13,8 +16,14 @@ function loadXMLDoc() {
                 let data = JSON.parse(xmlhttp.responseText)
                 document.getElementById("banks").innerHTML = data.data.map(item => {
                     console.log(item);
+                    // let imageLogo = item.code .toUp
                     // return `<option value=${item.bin} data-thumbnail=${item.logo}>(${item.bin}) ${item.short_name}</option>`
-                    return `<option value=${item.bin} data-thumbnail=${item.logo}>  ${item.name}</option>`
+    //                 return `<option value=${item.bin} data-code=${item.code}>
+    // <img id="logo" src="../logoBanks/ic_bank_default.pn" onerror="this.onerror=null;this.src='../logoBanks/ic_bank_default.png'" alt="logo">
+    //                 <div>[${item.code}] ${item.name}</option> </div>`
+                    return `<input type="checkbox" data-code="${item.bin}" id="input${item.code}"/>
+                            <label for= "input${item.code}"> <img style="height:30px" src="../logoBanks/${item.code.toLowerCase()}.png" onerror="this.onerror=null;this.src='../logoBanks/ic_bank_default.png'" alt="logo">${item.name} (${item.code})</label>
+                            <br>`
                 }).join('')
             } else if (xmlhttp.status == 400) {
                 alert('There was an error 400');
@@ -29,8 +38,11 @@ function loadXMLDoc() {
 }
 
 
+
+
 function findAccountName(accountNumber, bankId) {
     // document.getElementById("container-loading").style.display = "flex"
+    console.log(accountNumber, bankId);
     var xmlhttp = new XMLHttpRequest();
     let params = {
         accountNumber: accountNumber,
@@ -42,6 +54,7 @@ function findAccountName(accountNumber, bankId) {
                 console.log(JSON.parse(xmlhttp.responseText))
                 let data = JSON.parse(xmlhttp.responseText)
                 if (data.code == "00") {
+                    $('#result').text(data.data.accountName)
                     return data.data.accountName
                     // document.getElementById("container-loading").style.display = "none";
                     // document.getElementById("error").style.display = "none";
@@ -72,17 +85,16 @@ function findAccountName(accountNumber, bankId) {
 }
 
 function init() {
-    let inputBankId = document.getElementById('banks');
+    // let inputBankId = $('#banks input:checked').data('code')
     let inputAccountNumber = document.getElementById('accountNumber');
     inputAccountNumber.addEventListener('focusout', async function (e) {
         console.log('started...');
         let value = e.target.value
         if (value.length > 0) {
-            console.log(value, inputBankId.value);
             // await setTimeout(() => {
             //     document.getElementById("container-loading").style.display = "block"
             // }, 1500)
-            findAccountName(value, inputBankId.value)
+            findAccountName(value, $('#banks input:checked').data('code'))
         }
     })
 }
